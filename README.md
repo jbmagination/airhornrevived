@@ -13,6 +13,8 @@ Airhorn Revived is a continuation of Airhorn, an example implementation of the [
 
 !bday
 
+!die
+
 (more will be added if I can find any from the original repository, as well as some of my own commands if I add any)
 
 ### Using the bot on your server

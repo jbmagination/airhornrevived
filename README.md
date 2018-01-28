@@ -1,33 +1,25 @@
-# Airhorn Bot
-Airhorn is an example implementation of the [Discord API](https://discordapp.com/developers/docs/intro). Airhorn bot utilizes the [discordgo](https://github.com/bwmarrin/discordgo) library, a free and open source library. Airhorn Bot requires Go 1.4 or higher.
-
-This project is no longer active nor maintained, feel free to fork or build your own!
-
-## Usage
-Airhorn Bot has two components, a bot client that handles the playing of loyal airhorns, and a web server that implements OAuth2 and stats. Once added to your server, airhorn bot can be summoned by running `!airhorn`.
+# Airhorn Bot Revived
+Airhorn Revived is a continuation of Airhorn, an example implementation of the [Discord API](https://discordapp.com/developers/docs/intro). The Airhorn Revived bot utilizes the [discordgo](https://github.com/bwmarrin/discordgo) library, a free and open source library. Airhorn Revived requires Go 1.4 or higher. If you still need info, head over to the [original repository](https://github.com/discordapp/airhornbot).
 
 
-### Running the Bot
+### Command List
+!airhorn
 
-**First install the bot:**
-```
-go get github.com/hammerandchisel/airhornbot/cmd/bot
-go install github.com/hammerandchisel/airhornbot/cmd/bot
-```
- **Then run the following command:**
+!wowthatscool
 
-```
-bot -r "localhost:6379" -t "MY_BOT_ACCOUNT_TOKEN" -o OWNER_ID
-```
+!wtc
 
-### Running the Web Server
-First install the webserver: `go install github.com/hammerandchisel/airhornbot`, then run `make static`, finally run:
+!birthday
 
-```
-./airhornweb -r "localhost:6379" -i MY_APPLICATION_ID -s 'MY_APPLICATION_SECRET"
-```
+!bday
 
-Note, the webserver requires a redis instance to track statistics
+(more will be added if I can find any from the original repository, as well as some of my own commands if I add any)
 
-## Thanks
-Thanks to the awesome (one might describe them as smart... loyal... appreciative...) [iopred](https://github.com/iopred) and [bwmarrin](https://github.com/bwmarrin/discordgo) for helping code review the initial release.
+### Using the bot on your server
+
+1) [Add the AIRHORN SOLUTIONS Revived bot](https://discordapp.com/oauth2/authorize?client_id=407235859520290816&scope=bot&permissions=37035016)
+2) [Add the dgo bot](https://discordapp.com/oauth2/authorize?client_id=173113690092994561&scope=bot)
+3) [Add the AIRHORN SOLUTIONS Revived bot](https://discordapp.com/oauth2/authorize?access_type=online&client_id=159799960412356608&redirect_uri=https%3A%2F%2Fairhornbot.com%2Fcallback&response_type=code&scope=bot+identify&state=ARGrgbZXBbvLrEDTNJErSoFgWWAHsofR&permissions=3148800)
+4) join a voice channel
+5) type any command on the command list
+6) watch it play!

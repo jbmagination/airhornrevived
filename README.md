@@ -17,7 +17,7 @@ Airhorn Revived is a continuation of Airhorn, an example implementation of the [
 
 ### Using the bot on your server
 
-1) [Add the AIRHORN SOLUTIONS Revived bot](https://discordapp.com/oauth2/authorize?client_id=407235859520290816&scope=bot&redirect_uri=https%3A%2F%2Fairhornbot.com%2Fcallback&response_type=code&scope=bot+identify&state=ARGrgbZXBbvLrEDTNJErSoFgWWAHsofR&permissions=37035016)
+1) [Add the AIRHORN SOLUTIONS Revived bot](https://discordapp.com/oauth2/authorize?client_id=407235859520290816&scope=bot&permissions=37035016)
 2) [Add the dgo bot](https://discordapp.com/oauth2/authorize?client_id=173113690092994561&scope=bot)
 3) [Add the AIRHORN SOLUTIONS bot](https://discordapp.com/oauth2/authorize?access_type=online&client_id=159799960412356608&redirect_uri=https%3A%2F%2Fairhornbot.com%2Fcallback&response_type=code&scope=bot+identify&state=ARGrgbZXBbvLrEDTNJErSoFgWWAHsofR&permissions=3148800)
 4) join a voice channel

@@ -23,3 +23,8 @@ Airhorn Revived is a continuation of Airhorn, an example implementation of the [
 4) join a voice channel
 5) type any command on the command list
 6) watch it play!
+
+### Badges
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/jbmagination/airhornrevived)](https://goreportcard.com/report/github.com/jbmagination/airhornrevived)
+

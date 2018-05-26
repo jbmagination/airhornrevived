@@ -28,5 +28,5 @@ Airhorn Revived is a continuation of Airhorn, an example implementation of the [
 
 ### Badges
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/jbmagination/airhornrevived)](https://goreportcard.com/report/github.com/jbmagination/airhornrevived)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jbmagination/airhornrevived)](https://goreportcard.com/report/github.com/jbmagination/airhornrevived) [![Greenkeeper badge](https://badges.greenkeeper.io/jbmagination/airhornrevived.svg)](https://greenkeeper.io/)
 
